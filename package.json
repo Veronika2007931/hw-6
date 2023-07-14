@@ -1,0 +1,23 @@
+{
+  "name": "hw-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": " parcel src/*.html",
+    "build": "parcel build src/*.html --public-url/hw-6/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veronika2007931/hw-6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Veronika2007931/hw-6/issues"
+  },
+  "homepage": "https://github.com/Veronika2007931/hw-6#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
