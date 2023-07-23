@@ -1,23 +1,32 @@
 {
   "name": "hw-6",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://Veronika2007931.github.io/hw-6",
   "scripts": {
-    "start": " parcel src/*.html",
-    "build": "parcel build src/*.html --public-url/hw-6/"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /hw-6/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Veronika2007931/hw-6.git"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Veronika2007931/hw-6/issues"
   },
-  "homepage": "https://github.com/Veronika2007931/hw-6#readme",
   "dependencies": {
-    "parcel-bundler": "^1.12.5"
-  }
+    "modern-normalize": "^1.1.0",
+    "parcel-transformer-hbs": "^1.0.4",
+    "pnotify": "^5.2.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
