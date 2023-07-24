@@ -11,7 +11,8 @@ const name = document.querySelector('.name')
 const email = document.querySelector('.email')
 const messege= document.querySelector('.messege')
 
-button.addEventListener('click', ()=>{
+button.addEventListener('click', (event)=>{
+   event.preventDefault()
 
     obj.name = name.value
     obj.email = email.value
