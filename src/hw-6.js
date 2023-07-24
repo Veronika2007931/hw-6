@@ -1,13 +1,22 @@
 import { alert } from '@pnotify/core'; 
 import '@pnotify/core/dist/PNotify.css'; 
-
+import {obj} from './object.js'
 
 
 
 const button = document.querySelector('.button')
 
-button.addEventListener('click', (event)=>{
-    event.preventDefault()
+
+const name = document.querySelector('.name')
+const email = document.querySelector('.email')
+const messege= document.querySelector('.messege')
+
+button.addEventListener('click', ()=>{
+
+    obj.name = name.value
+    obj.email = email.value
+    obj.messege = messege.value
+    console.log(obj)
 
     alert({ 
         text: 'Повідомлення успішно відправлене!' 
@@ -15,8 +24,5 @@ button.addEventListener('click', (event)=>{
        
 
 })
-
-
-
 
 
